@@ -1,0 +1,193 @@
+/**********************TAG SELECTORS**********************/
+body {
+  background-color: white;
+  color: #40514E;
+  text-align: center;
+  margin: 0px;
+  font-family: "Merriweather", serif;
+}
+
+h1 {
+  color: #66BFBF;
+  font-family: "Sulphur Point", cursive;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #11999E;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+a {
+  color: #11999E;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+}
+
+a:hover{
+  color:#EAf6f6;
+}
+
+hr{
+  border: 10px dotted;
+  border-top: 0;
+  width: 5%;
+  color: #EAF6F6;
+  margin: 100px auto;
+}
+p{
+  line-height: 2;
+}
+/**********************CLASS SELECTORS**********************/
+.bottom-container{
+  height: 125px;
+  background-color: #66BFBF;
+  font-size: 1.25rem;
+  padding-top: 75px;
+}
+
+.brain-img {
+  width: 25%;
+  margin-left: 30px;
+  margin-bottom: 10px;
+  float: right;
+}
+
+.btn {
+	-moz-box-shadow:inset 0px 1px 0px -39px #bbdaf7;
+	-webkit-box-shadow:inset 0px 1px 0px -39px #bbdaf7;
+	box-shadow:inset 0px 1px 0px -39px #bbdaf7;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #66BFBF), color-stop(1, #66BFBF) );
+	background:-moz-linear-gradient( center top, ##66BFBF 5%, #66BFBF100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#66BFBF', endColorstr='#66BFBF');
+	background-color:#66BFBF;
+	-webkit-border-top-left-radius:8px;
+	-moz-border-radius-topleft:8px;
+	border-top-left-radius:8px;
+	-webkit-border-top-right-radius:8px;
+	-moz-border-radius-topright:8px;
+	border-top-right-radius:8px;
+	-webkit-border-bottom-right-radius:8px;
+	-moz-border-radius-bottomright:8px;
+	border-bottom-right-radius:8px;
+	-webkit-border-bottom-left-radius:8px;
+	-moz-border-radius-bottomleft:8px;
+	border-bottom-left-radius:8px;
+	text-indent:0;
+	display:inline-block;
+	color:#ffffff;
+	font-family: "Montserrat", sans-serif;
+	font-size:16px;
+	font-weight:bold;
+	font-style:normal;
+	height:50px;
+	line-height:50px;
+	width:130px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px gray;
+}
+
+.btn:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #dff6f0), color-stop(1, #66BFBF) );
+	background:-moz-linear-gradient( center top, #dff6f0 5%, #dff6f0 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dff6f0', endColorstr='#2c7873');
+	background-color:#dff6f0;
+
+}.btn:active {
+	position:relative;
+	top:1px;
+}
+
+.chad {
+  text-decoration: underline;
+}
+
+.cloud1 {
+  position: absolute;
+  right: 350px;
+  top: 50px;
+}
+
+.cloud2 {
+  position: absolute;
+  left: 350px;
+  bottom: 300px;
+}
+
+.contact-message{
+  width: 50%;
+  margin: 40px auto 60px;
+}
+
+.copyright{
+  color: white;
+  font-size: 0.75rem;
+  padding-top: 25px;
+}
+
+.credits {
+  font-size: 0.001rem;
+  position: relative;
+}
+
+.dev-img {
+  width: 25%;
+  margin-right: 30px;
+  float: left;
+}
+
+.footer-link{
+  text-decoration: none;
+  margin: auto 25px auto 25px;
+}
+
+.intro{
+  width: 30%;
+  margin: auto;
+}
+
+.middle-container{
+  margin: 25px 0 100px 0;
+}
+
+.profpic {
+  height: 300px;
+  margin-top: 25px;
+  border: solid 2px;
+  border-color: black;
+  border-radius: 100%;
+}
+
+.programmer {
+  font-weight: normal;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 50px auto 100px auto;
+  text-align: left;
+}
+
+.top-container {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 100px;
+}
+
+.top-spacer{
+  height: 4.25rem;
+  background-color: #2f4f4f;
+}
+
+/* This button was generated using CSSButtonGenerator.com */
